@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: render-pdf-service-test
+  threads:
+    virtual:
+      enabled: true
+
+pdf:
+  generation:
+    temp-dir: ./temp-test
+    template-dir: ./templates-test
+    output-dir: ./output-test
+
+logging:
+  level:
+    com.techlab.renderpdf: DEBUG
+
